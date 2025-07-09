@@ -3,13 +3,80 @@
     display: flex;
 }
 
+.bg-first{
+background-color:#111111 ; 
+}
 
+.brand{
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #E6533C;
+    margin: 10px;
+}
+
+.btn-primary{
+    font-size: 1.25rem;
+    color: aliceblue;
+    background-color: #E6533C;
+    padding: 16px 40px;
+    border: 1px solid #E6533C ;
+    border-radius: 42px;
+   
+}
+
+.btn-secondary{
+    font-size: 1.25rem;
+     color: aliceblue;
+       background-color: #111111; 
+       border: 1px solid white;
+        border-radius: 42px;
+        padding: 16px 40px;
+}
+.text-white{
+    color: white
+}
+.text-gray{
+    color: rgba(255, 255, 255, 0.5);
+}
 
 /* navber styles */
+
+.navber, .banner{
+    max-width: 1440px;
+    margin: 0 auto; 
+}
+
+.navber{
+    justify-content: space-between;
+}
+    
+
 .navber-links{
     
     
 }
 .nav-link{
     text-decoration: none;
+    color: white;
+    
+    
+}
+.nav-items{
+    list-style: none;
+    margin-left: 20px;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+/* banner styles */
+
+.banner{
+    justify-content: space-between;
+}
+.banner-title{
+font-size: 5rem;
+font-weight: 900;
+}
+.banner-des{
+    font-size: 1.25rem;
 }
