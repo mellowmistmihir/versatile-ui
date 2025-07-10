@@ -2,9 +2,14 @@
 .display-flex{
     display: flex;
 }
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
 .bg-first{
 background-color:#111111 ; 
+border-radius: 20px;
 }
 
 .brand{
@@ -23,6 +28,9 @@ background-color:#111111 ;
     border-radius: 42px;
    
 }
+.full-screen{
+    background-color: black;
+}
 
 .btn-secondary{
     font-size: 1.25rem;
@@ -39,6 +47,10 @@ background-color:#111111 ;
     color: rgba(255, 255, 255, 0.5);
 }
 
+section{
+    margin-top: 100px;
+}
+
 /* navber styles */
 
 .navber, .banner{
@@ -50,11 +62,6 @@ background-color:#111111 ;
     justify-content: space-between;
 }
     
-
-.navber-links{
-    
-    
-}
 .nav-link{
     text-decoration: none;
     color: white;
@@ -79,4 +86,98 @@ font-weight: 900;
 }
 .banner-des{
     font-size: 1.25rem;
+}
+
+
+.video-tutorial-badge {
+  position: absolute;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 10px 16px;
+  border-radius: 10px;
+  width: fit-content;
+  font-family: sans-serif;
+  backdrop-filter: blur(8px);
+  margin-left: -50px;
+  margin-top: -100px;
+
+ 
+  
+}
+
+
+.dot {
+  width: 16px;
+  height: 16px;
+  background-color: #E74C3C; 
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.text strong {
+  font-size: 18px;
+}
+
+.text span {
+  font-size: 14px;
+  color: #ccc;
+}
+.video-tutorial-badge-second{
+       position: absolute;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 10px 16px;
+  border-radius: 10px;
+  width: fit-content;
+  font-family: sans-serif;
+  backdrop-filter: blur(8px);
+  margin-top: -380px;
+  margin-left: -100px;
+  
+}
+/* workout styles */
+
+  .workout{
+    justify-items: center;
+    text-align: center;
+
+  }
+
+.workouts{
+  gap:100px ;
+}
+
+
+  .workout-title{
+    font-size: 3.5rem;
+    font-weight: 800px;
+  }
+  .workout-img{
+    border: 1px solid darkgray;
+    border-radius: 50%;
+    margin-top: 40px;
+    
+  }
+  .img-title{
+       font-size: 1.2rem;
+       font-weight: 700;
+  }
+  /* extra styles */
+  .extra{
+    gap: 500px;
+  }
+  .extras-img{
+    width: 366px;
+    height: 312px;
+    padding: 20px;
+    border-radius: 30px;
+  }
+  .extra-title{
+    font-size: 3rem;
+  font-weight: 800;
+}
+.extra-conteiner{
+    margin: 40px;
 }
