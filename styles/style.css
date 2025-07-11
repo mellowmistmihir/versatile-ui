@@ -1,4 +1,16 @@
 /* shared styles */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.dancing-script-font {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+.text-red{
+ color: #E6533C;
+}
+
 .display-flex{
     display: flex;
 }
@@ -73,6 +85,16 @@ section{
     margin-left: 20px;
     font-size: 1.25rem;
     font-weight: 500;
+}
+
+#nav-btn{
+  padding: 5px;
+}
+
+.navber-links{
+  padding: 15px;
+  border: 1px dashed gray;
+  border-radius: 40px;
 }
 
 /* banner styles */
@@ -419,7 +441,6 @@ p {
 .finish{
   font-size: 1.2rem;
 }
-
 }
 
 
