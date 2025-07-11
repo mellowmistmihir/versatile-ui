@@ -360,3 +360,69 @@ p {
     border: 1px dashed gray;
     text-decoration: dashed;
   }
+
+
+
+
+
+  /* MEDIA quary for mobile */
+
+  @media screen and (max-width:576px) {
+    .navber-links :hover{
+      
+    }
+
+    .navber{
+      flex-direction: column;
+      margin: 20px;
+    }
+  .banner{
+    flex-direction: column;
+    margin-left: 20px;
+
+  }
+  .banner-title{
+    font-size: 2rem;
+  }
+  .video-tutorial-badge{
+    margin-left: 200px;
+  }
+  .btn-primary{
+    margin-bottom: 20px;
+  }
+  /* main header{
+    max-width: 100%;
+    margin: 0 auto; */
+
+     .workouts{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+.conteiner{
+      gap:none;
+}
+
+  .extra{
+    flex-direction: column;
+    gap: 10px;
+    
+  }
+.team-container{
+  grid-template-columns: 1fr;
+}
+
+
+.footer{
+  flex-direction: column;
+}
+.finish{
+  font-size: 1.2rem;
+}
+
+}
+
+
+  
+  
+ 
